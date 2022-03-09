@@ -138,7 +138,7 @@ nav .content .links {
 /* Dropdown Menu code start */
 .content .links ul {
   position: absolute;
-  background: #FFBD59;
+  background: #ffbd59;
   top: 80px;
   z-index: 2000;
   opacity: 0;
@@ -205,7 +205,7 @@ nav .content .links {
     color: #333;
   }
   .logo_size {
-    height: 150px;
+    height: 50px;
     margin-top: 10px;
   }
   nav .content .links {
@@ -282,12 +282,12 @@ nav .content .links {
   }
 }
 
-.main_banner{
-    background-image: url('/images/banner_main.jpeg') ;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    height: 900px;
+.main_banner {
+  background-image: url("/images/banner_main.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 900px;
 }
 .brand_title {
   display: flex;
@@ -332,24 +332,23 @@ nav .content .links {
   display: flex;
   top: 130px;
   right: 150px;
-  color: #FFBD59;
+  color: #ffbd59;
   font-size: 35px;
   text-transform: uppercase;
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
 }
 .services_row_two {
   margin-top: 60px;
 }
-.card{
-    position: relative;
-    top: 150px;
-    background-color: transparent !important;
-    color: #ffffff;
+.card {
+  position: relative;
+  top: 150px;
+  background-color: transparent !important;
+  color: #ffffff;
 }
-.card:hover{
-    background-color: #FFBD59 !important;
-    color: #ffffff;
-
+.card:hover {
+  background-color: #ffbd59 !important;
+  color: #ffffff;
 }
 
 .services_section {
@@ -362,6 +361,34 @@ nav .content .links {
   background-size: 100%;
 }
 
+@media screen and (max-width: 900px) {
+  .main_banner {
+    background-image: url("./images/main_banner_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 900px;
+  }
+  .services_title {
+    position: relative;
+    display: flex;
+    top: 130px;
+    left: 0px;
+    color: #ffbd59;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Righteous", cursive;
+  }
+  .services_section {
+    background-image: url("./images/mobile_service_section.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(30, 31, 32, 0.658);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: 100%;
+  }
+
+}
 .service-container {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -545,12 +572,12 @@ nav .content .links {
 }
 
 .service-wrapper .icon {
-  background: #850A1B!important;
+  background: #850a1b !important;
   color: #ffffff !important;
 }
 
 .service-wrapper:hover .icon {
-  background: #850A1B!important;
+  background: #850a1b !important;
   color: #ffffff !important;
 }
 
@@ -572,31 +599,42 @@ nav .content .links {
   fill: var(--uim-color, currentColor);
 }
 
-.service_tooltip{
-    background-image: url('./images/tooltip_services.jpg');
-    height: 1000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: relative;
-    bottom: 50px;
+@media screen and (max-width: 900px) {
+   .service_tooltip {
+  background-image: url("./images/mobile_tooltip_section.png") !important;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  bottom: 50px;
 }
 
-.pointerone{
-    position: relative;
-    left: 400px;
-    top: 250px;
-
+}
+.service_tooltip {
+  background-image: url("./images/tooltip_services.jpg");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  bottom: 50px;
 }
 
-.pointertwo{
-      position: relative;
-    left: 780px;
-    top: 70px;
+.pointerone {
+  position: relative;
+  left: 400px;
+  top: 250px;
 }
 
-.pointerthree{
-    position: relative;
-    left: 1120px;
-    top: 110px;
+.pointertwo {
+  position: relative;
+  left: 780px;
+  top: 70px;
+}
+
+.pointerthree {
+  position: relative;
+  left: 1120px;
+  top: 110px;
 }
