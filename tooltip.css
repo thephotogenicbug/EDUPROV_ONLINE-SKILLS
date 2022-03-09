@@ -84,7 +84,6 @@ a[data-tooltip]:hover:after, a[data-tooltip]:hover:before {
 }
 
 a[data-tooltip][data-position="top"]:before {
-  bottom: 100%;
   left: -130%;
   margin-bottom: 10px;
 }

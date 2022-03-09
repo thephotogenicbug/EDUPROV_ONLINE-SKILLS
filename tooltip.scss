@@ -83,6 +83,7 @@ a[data-tooltip] {
 
 	&:hover:after,
 	&:hover:before {
+		// background-color: orange;
 		visibility: visible;
 		opacity: 0.85;
 		transform: translateY(0px);
@@ -91,7 +92,7 @@ a[data-tooltip] {
 
 // top tooltip
 a[data-tooltip][data-position="top"]:before {
-	bottom: 100%;
+	// bottom: 100%;
 	left: -130%;
 	margin-bottom: 10px;
 }
